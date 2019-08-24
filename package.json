@@ -1,0 +1,40 @@
+{
+    "name": "photo-gallery",
+    "version": "1.0.0",
+    "description": "Photo gallery at the top of an airbnb page.",
+    "main": "index.jsx",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "webpack": "webpack -d --watch",
+        "makeDB": "mysql -u root -p < schema.sql",
+        "poppulateDB": "node server/database/seeding.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/the-black-canyon-group/photo-gallery.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/the-black-canyon-group/photo-gallery/issues"
+    },
+    "homepage": "https://github.com/the-black-canyon-group/photo-gallery#readme",
+    "dependencies": {
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0",
+        "sequelize": "^5.16.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.6",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "mysql": "^2.17.1",
+        "nodemon": "^1.19.1",
+        "webpack": "^4.39.2",
+        "webpack-cli": "^3.3.7"
+    }
+}
