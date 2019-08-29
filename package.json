@@ -8,6 +8,7 @@
         "webpack": "webpack -d --watch",
         "makeDB": "mysql -u root -p < schema.sql",
         "poppulateDB": "node server/database/seeding.js"
+
     },
     "repository": {
         "type": "git",
@@ -36,5 +37,9 @@
         "nodemon": "^1.19.1",
         "webpack": "^4.39.2",
         "webpack-cli": "^3.3.7"
-    }
-}
+    } <<
+    << << < HEAD
+} ===
+=== =
+} >>>
+>>> > 110 b3660abd226776ae45196a1a3a3c40db9abf0
