@@ -3,3 +3,115 @@
     height: 300px;
     width: 300px
 }
+
+.ptgFrontpage {
+    display: flex;
+    flex-direction: row;
+}
+
+.ptgFrontpageImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 500px;
+    height: 300px;
+}
+
+.ptgFrontpageImg2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 250px;
+    height: 150px;
+}
+
+.ptgFrontpageMainImg {
+    display: flex;
+}
+
+.ptgFrontpageExtraImgs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.ImageSlidesImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 400px;
+    width: 400px;
+}
+
+.ImageSlides {
+    display: flex;
+}
+
+.ptgRightButton {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+
+.ptgLeftButton {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+.ptgCarouselImg {
+    display: flex;
+    flex-direction: row;
+}
+
+.miniCar {
+    display: flex;
+}
+
+.miniCarImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+}
+
+.spaceDiv {
+    width: 10px;
+}
+
+.descriptionCarousel {
+    display: flex;
+    flex-direction: row;
+}
+
+.enterCarousel {
+    display: flex;
+    background-color: blue;
+    height: 30px;
+    width: 50px;
+}
+
+.exitCarousel {
+    display: flex;
+    background-color: red;
+    height: 30px;
+    width: 30px;
+}
+
+.zIndex {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    z-index: 1;
+}
